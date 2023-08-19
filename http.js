@@ -15,7 +15,7 @@ const server= http.createServer((req,res)=>{
             }) 
             req.on('end', () => {
                   console.log(body);
-                  res.end("sucess")
+                  res.end("success")
             })
       } else {
             res.writeHead(200);
